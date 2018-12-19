@@ -14,4 +14,6 @@ USER user
 
 WORKDIR /home/user
 
-CMD ["gotty", "-w", "bash"]
+COPY ./gotty/.gotty .
+
+CMD ["gotty", "bash"]
