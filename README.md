@@ -32,7 +32,7 @@ $ cd repl_docker/
 
 ```bash
 
-$ sudo docker-compose up
+# docker-compose up
 
 ```
 
@@ -42,6 +42,6 @@ $ sudo docker-compose up
 
 ```bash
 
-$ sudo docker-compose down
+# docker-compose down
 
 ```
